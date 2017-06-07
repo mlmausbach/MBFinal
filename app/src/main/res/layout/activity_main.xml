@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+  >
+
+    <ImageView
+        android:src="@mipmap/novo"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:id="@+id/imageView"
+        android:layout_weight="0.17" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:text="Aqui você vai encontrar as principais novidades sobre mim!"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:id="@+id/textView"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/btn_abrir"
+        android:text="ENTRAR"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/button"
+        android:text="ouvir"
+        android:onClick="playMusic"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp">
+    </Button>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.53" />
+
+    <ImageView
+        android:src="@drawable/imagemhome2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imageView4" />
+
+</LinearLayout>
