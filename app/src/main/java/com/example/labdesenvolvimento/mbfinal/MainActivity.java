@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements OnClickListener {
         btn_abrir.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.btn_abrir){
@@ -45,4 +46,12 @@ public class MainActivity extends Activity implements OnClickListener {
     public void playMusic(View view) {
         mySound.start();
     }
+
+    public void irParaSegundaTela (View view) {
+        Intent video = new Intent(this,Main2Activity.class);
+        startActivity(video);
+
+
+    }
+
 }

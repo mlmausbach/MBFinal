@@ -46,15 +46,19 @@
         android:textSize="24sp">
     </Button>
 
+    <Button
+        android:id="@+id/buttonYT"
+        android:text="vídeos"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_weight="0.17"
+        android:onClick="irParaSegundaTela"></Button>
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.53" />
-
-    <ImageView
-        android:src="@drawable/imagemhome2"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:id="@+id/imageView4" />
 
 </LinearLayout>
